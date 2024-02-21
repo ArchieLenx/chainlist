@@ -4267,6 +4267,11 @@ export const extraRpcs = {
       "https://planq-rpc.nodies.app",
       "https://jsonrpc.planq.nodestake.top/"
     ]
+  },
+252: {
+    rpcs:[
+      "https://rpc.fraxtal.lenx.finance/"
+    ]
   }
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
